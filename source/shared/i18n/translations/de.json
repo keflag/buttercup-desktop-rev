@@ -27,9 +27,9 @@
             "dropbox-auth": "Es wird sich ein neues Fenster für die Authentifizierung öffnen",
             "file-prompt": "Es wird sich ein Dialogfenster für die Auswahl des Tresors öffnen",
             "google-auth": {
-                "instr-1": "Du kannst die Berechtigung auswählen, die Buttercup nutzen wird, während es auf deinen <strong>Google Drive</strong> Konto zugreift.",
-                "instr-2": "Wenn Du eine <strong>offene</strong> Berechtigung auswählst, erlaubst Du Buttercup auf alle deine Dateien und Ordner deines Accounts und verbundenen Freigaben zuzugreifen.",
-                "instr-3": "Wenn Du eine <i>nicht-</i>offene Berechtigung auswählst, erlaubst Du Buttercup auf Dateien zuzugreifen, die zuvor erstellt oder auf die zuvor zugegriffen wurde."
+                "instr-1": "Du kannst die Berechtigung auswählen, die Buttercup-Rev nutzen wird, während es auf deinen <strong>Google Drive</strong> Konto zugreift.",
+                "instr-2": "Wenn Du eine <strong>offene</strong> Berechtigung auswählst, erlaubst Du Buttercup-Rev auf alle deine Dateien und Ordner deines Accounts und verbundenen Freigaben zuzugreifen.",
+                "instr-3": "Wenn Du eine <i>nicht-</i>offene Berechtigung auswählst, erlaubst Du Buttercup-Rev auf Dateien zuzugreifen, die zuvor erstellt oder auf die zuvor zugegriffen wurde."
             },
             "webdav-auth": {
                 "password-label": "Passwort",
@@ -127,12 +127,12 @@
         },
         "file-vault": {
             "add-existing": {
-                "bcup-filter": "Buttercup Tresore",
+                "bcup-filter": "Buttercup-Rev Tresore",
                 "confirm-button": "Hinzufügen",
                 "title": "Füge existierenden Tresor hinzu"
             },
             "add-new": {
-                "bcup-filter": "Buttercup Tresore",
+                "bcup-filter": "Buttercup-Rev Tresore",
                 "confirm-button": "Hinzufügen",
                 "title": "Füge neuen Tresor hinzu"
             }
@@ -242,7 +242,7 @@
             "lock-vaults-window-closed": "Sperre Tresore sobald das Fenster geschlossen wurde",
             "lock-vaults-window-closed-label": "Sperre nach dem Schließen",
             "secure-file-host": {
-                "description": "Der Secure File Host erlaubt der <strong>Buttercup Browser Erweiterung</strong> sich zu den lokalen Tresoren auf diesem PC mit dieser Applikation zu verbinden.",
+                "description": "Der Secure File Host erlaubt der <strong>Buttercup-Rev Browser Erweiterung</strong> sich zu den lokalen Tresoren auf diesem PC mit dieser Applikation zu verbinden.",
                 "label": "Aktiviere den Secure File Host",
                 "title": "Secure File Host"
             },
@@ -316,8 +316,8 @@
             "title": "Sicherung"
         },
         "format": {
-            "a-description": "Format A ist das ursprüngliche Buttercup Tresorformat, das Deltas für die Speicherung der Tresorstruktur nutzt.",
-            "b-description": "Format B ist das neue Buttercup Tresorformat, das eine JSON Struktur verwendet, um die Struktur und den Verlauf des Tresors zu organisieren.",
+            "a-description": "Format A ist das ursprüngliche Buttercup-Rev Tresorformat, das Deltas für die Speicherung der Tresorstruktur nutzt.",
+            "b-description": "Format B ist das neue Buttercup-Rev Tresorformat, das eine JSON Struktur verwendet, um die Struktur und den Verlauf des Tresors zu organisieren.",
             "description": "Verwalte aktuelles Tresorformat und Updates",
             "format-type": "Format {{format}}",
             "title": "Format",

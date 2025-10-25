@@ -1,4 +1,4 @@
-import { startFileHost as startSecureFileHost } from "@buttercup/secure-file-host";
+import { startFileHost as startSecureFileHost } from "@Buttercup-Rev/secure-file-host";
 import { logErr, logInfo } from "../library/log";
 import { getConfigValue, setConfigValue } from "./config";
 import { getMainWindow, openMainWindow } from "./windows";

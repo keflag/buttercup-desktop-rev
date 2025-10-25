@@ -27,9 +27,9 @@
             "dropbox-auth": "Uma janela separada será aberta para realizar a autenticação",
             "file-prompt": "Uma janela será aberta para escolher um arquivo de cofre",
             "google-auth": {
-                "instr-1": "É necessário selecionar o modelo de permissão que o Buttercup usará ao acessar sua conta do <strong>Google Drive</strong>.",
-                "instr-2": "Ao selecionar o modelo de permissão <strong>'Aberta'</strong>, será concedida ao Buttercup o acesso a todos os arquivos e pastas da sua conta e compartilhamentos conectados.",
-                "instr-3": "Selecionar a configuração <i>não-aberto</i> concederá ao Buttercup acesso aos arquivos que ele criou/acessou anteriormente."
+                "instr-1": "É necessário selecionar o modelo de permissão que o Buttercup-Rev usará ao acessar sua conta do <strong>Google Drive</strong>.",
+                "instr-2": "Ao selecionar o modelo de permissão <strong>'Aberta'</strong>, será concedida ao Buttercup-Rev o acesso a todos os arquivos e pastas da sua conta e compartilhamentos conectados.",
+                "instr-3": "Selecionar a configuração <i>não-aberto</i> concederá ao Buttercup-Rev acesso aos arquivos que ele criou/acessou anteriormente."
             },
             "webdav-auth": {
                 "password-label": "Senha",
@@ -127,12 +127,12 @@
         },
         "file-vault": {
             "add-existing": {
-                "bcup-filter": "cofres Buttercup",
+                "bcup-filter": "cofres Buttercup-Rev",
                 "confirm-button": "Adicionar",
                 "title": "Adicionar um cofre existente"
             },
             "add-new": {
-                "bcup-filter": "cofres Buttercup",
+                "bcup-filter": "cofres Buttercup-Rev",
                 "confirm-button": "Criar",
                 "title": "Adicionar um novo cofre"
             }
@@ -242,7 +242,7 @@
             "lock-vaults-window-closed": "Bloquear cofres se a janela do cofre estiver fechada",
             "lock-vaults-window-closed-label": "Bloquear ao fechar",
             "secure-file-host": {
-                "description": "O host de arquivo seguro permite que a <strong>Extensão do navegador Buttercup</strong> se conecte a cofres locais neste PC por meio deste aplicativo.",
+                "description": "O host de arquivo seguro permite que a <strong>Extensão do navegador Buttercup-Rev</strong> se conecte a cofres locais neste PC por meio deste aplicativo.",
                 "label": "Habilitar host de arquivo seguro",
                 "title": "Host de arquivo seguro"
             },
@@ -316,8 +316,8 @@
             "title": "Backup"
         },
         "format": {
-            "a-description": "O formato A é o formato original do cofre Buttercup que usa deltas para armazenar a estrutura do cofre.",
-            "b-description": "O formato B é o novo formato de vault Buttercup que usa uma estrutura JSON para gerenciar a estrutura e o histórico do vault.",
+            "a-description": "O formato A é o formato original do cofre Buttercup-Rev que usa deltas para armazenar a estrutura do cofre.",
+            "b-description": "O formato B é o novo formato de vault Buttercup-Rev que usa uma estrutura JSON para gerenciar a estrutura e o histórico do vault.",
             "a-upgrade-b": "Você deve atualizar para o Formato B, que atualmente é <strong>estável</strong>. É recomendado que você faça backup do seu cofre antes de fazer isso.",
             "description": "Gerencie o formato e as atualizações atuais do vault.",
             "format-type": "Fomatar {{format}}",

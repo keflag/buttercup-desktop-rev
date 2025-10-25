@@ -1,5 +1,5 @@
 import { IconName, MaybeElement } from "@blueprintjs/core";
-import { EntryType } from "buttercup";
+import { EntryType } from "Buttercup-Rev";
 
 export const defaultType = EntryType.Login;
 

@@ -1,5 +1,5 @@
 import { Request, Response } from "express";
-import { VaultFacade, VaultSourceStatus } from "buttercup";
+import { VaultFacade, VaultSourceStatus } from "Buttercup-Rev";
 import { Layerr } from "layerr";
 import {
     getSourceDescription,
@@ -8,7 +8,7 @@ import {
     getUnlockedSourceIDs,
     getVaultFacadeBySource,
     lockSource
-} from "../../buttercup";
+} from "../../Buttercup-Rev";
 import { VaultUnlockParamSchema } from "../models";
 import { openMainWindow } from "../../windows";
 import { respondJSON, respondText } from "../response";

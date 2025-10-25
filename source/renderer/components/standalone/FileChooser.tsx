@@ -1,7 +1,7 @@
 import * as React from "react";
 import styled from "styled-components";
 import { Alignment, Breadcrumb, Breadcrumbs, Button, Card, Classes, Dialog, IBreadcrumbProps, Icon, InputGroup, Intent, Navbar, Spinner } from "@blueprintjs/core";
-import { FileIdentifier, FileItem, FileSystemInterface, PathIdentifier } from "@buttercup/file-interface";
+import { FileIdentifier, FileItem, FileSystemInterface, PathIdentifier } from "@Buttercup-Rev/file-interface";
 import { t } from "../../../shared/i18n/trans";
 import { NewVaultPlaceholder } from "../../types";
 
@@ -10,7 +10,7 @@ import { NewVaultPlaceholder } from "../../types";
         Inspired by this codepen: https://codepen.io/suryansh54/pen/QQqjxv
 */
 
-const ICON_BUTTERCUP = require("../../../../resources/images/buttercup-256.png").default;
+const ICON_Buttercup-Rev = require("../../../../resources/images/Buttercup-Rev-256.png").default;
 
 const { useCallback, useEffect, useState } = React;
 
@@ -234,7 +234,7 @@ export function FileChooser(props: FileChooserProps) {
                                 item.type === "directory"
                                     ? "folder-close"
                                     : /\.bcup$/i.test(item.name)
-                                        ? <IconImg src={ICON_BUTTERCUP} />
+                                        ? <IconImg src={ICON_Buttercup-Rev} />
                                         : "document"
                             }
                             iconSize={ICON_SIZE}
@@ -252,7 +252,7 @@ export function FileChooser(props: FileChooserProps) {
                         selected={newVault.filename === selectedVaultPath.name}
                     >
                         <Icon
-                            icon={<IconImg src={ICON_BUTTERCUP} />}
+                            icon={<IconImg src={ICON_Buttercup-Rev} />}
                             iconSize={ICON_SIZE}
                         />
                         <ChooserItemText><IconInline icon="plus" iconSize={10} color="#ff7373" /> {newVault.filename}</ChooserItemText>

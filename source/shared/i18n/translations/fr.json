@@ -27,9 +27,9 @@
             "dropbox-auth": "Une fenêtre séparée s’ouvrira pour l’authentification",
             "file-prompt": "Une boîte de dialogue s’ouvrira pour choisir un fichier de coffre-fort.",
             "google-auth": {
-                "instr-1": "Vous pouvez sélectionner le niveau de permission que Buttercup utilisera lors de l’accès à votre compte <strong>Google Drive</strong>.",
-                "instr-2": "En sélectionnant un paramètre de permission <strong>étendu</strong>, Buttercup aura accès à tous les fichiers et dossiers de votre compte et aux partages connectés.",
-                "instr-3": "La sélection d’un paramètre <i>non-</i>étendu permettra à Buttercup d'accéder aux fichiers qu’il a créés ou auxquels il a accédé précédemment."
+                "instr-1": "Vous pouvez sélectionner le niveau de permission que Buttercup-Rev utilisera lors de l’accès à votre compte <strong>Google Drive</strong>.",
+                "instr-2": "En sélectionnant un paramètre de permission <strong>étendu</strong>, Buttercup-Rev aura accès à tous les fichiers et dossiers de votre compte et aux partages connectés.",
+                "instr-3": "La sélection d’un paramètre <i>non-</i>étendu permettra à Buttercup-Rev d'accéder aux fichiers qu’il a créés ou auxquels il a accédé précédemment."
             },
             "webdav-auth": {
                 "password-label": "Mot de passe",
@@ -139,12 +139,12 @@
         },
         "file-vault": {
             "add-existing": {
-                "bcup-filter": "Coffres-forts Buttercup",
+                "bcup-filter": "Coffres-forts Buttercup-Rev",
                 "confirm-button": "Ajouter",
                 "title": "Ajout d’un coffre-fort existant"
             },
             "add-new": {
-                "bcup-filter": "Coffres-forts Buttercup",
+                "bcup-filter": "Coffres-forts Buttercup-Rev",
                 "confirm-button": "Créer",
                 "title": "Ajout d’un nouveau coffre-fort"
             }
@@ -259,7 +259,7 @@
             "lock-vaults-window-closed": "Verrouiller les coffres-forts si la fenêtre du coffre-fort est fermée",
             "lock-vaults-window-closed-label": "Verrouillage à la fermeture",
             "secure-file-host": {
-                "description": "Le serveur de fichiers sécurisé permet à l’<strong>extension de navigateur Buttercup</strong> de se connecter aux coffres-forts locaux de cet ordinateur via cette application.",
+                "description": "Le serveur de fichiers sécurisé permet à l’<strong>extension de navigateur Buttercup-Rev</strong> de se connecter aux coffres-forts locaux de cet ordinateur via cette application.",
                 "label": "Activer le serveur de fichiers sécurisé",
                 "title": "Serveur de fichiers sécurisé"
             },
@@ -357,8 +357,8 @@
             "title": "Biométrie"
         },
         "format": {
-            "a-description": "Le format A est le format original du coffre-fort Buttercup qui utilise des deltas pour stocker la structure du coffre-fort.",
-            "b-description": "Le format B est le nouveau format de coffre-fort Buttercup qui utilise une structure JSON pour gérer la structure et l'historique du coffre-fort.",
+            "a-description": "Le format A est le format original du coffre-fort Buttercup-Rev qui utilise des deltas pour stocker la structure du coffre-fort.",
+            "b-description": "Le format B est le nouveau format de coffre-fort Buttercup-Rev qui utilise une structure JSON pour gérer la structure et l'historique du coffre-fort.",
             "a-upgrade-b": "Vous devriez passer au Format B, qui est actuellement <strong>stable</strong>. Il est recommandé de sauvegarder votre coffre-fort avant de le faire.",
             "description": "Gérez le format actuel du coffre-fort et les mises à jour.",
             "format-type": "Format {{format}}",

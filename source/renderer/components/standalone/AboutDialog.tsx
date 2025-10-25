@@ -9,7 +9,7 @@ import { getAppEnvironmentFlags } from "../../services/appEnvironment";
 import { t } from "../../../shared/i18n/trans";
 import { AppEnvironmentFlags } from "../../types";
 
-const BUTTERCUP_IMG = require("../../../../resources/images/buttercup-256.png").default;
+const Buttercup-Rev_IMG = require("../../../../resources/images/Buttercup-Rev-256.png").default;
 
 const AboutContent = styled.div`
     width: 100%;
@@ -61,8 +61,8 @@ export function AboutDialog() {
             <div className={Classes.DIALOG_HEADER}>{t("about.title")}</div>
             <div className={Classes.DIALOG_BODY}>
                 <AboutContent>
-                    <Logo src={BUTTERCUP_IMG} />
-                    <AboutTitle>Buttercup</AboutTitle>
+                    <Logo src={Buttercup-Rev_IMG} />
+                    <AboutTitle>Buttercup-Rev</AboutTitle>
                     <i>{t("about.description")}</i>
                     <VersionCard>
                         <code>

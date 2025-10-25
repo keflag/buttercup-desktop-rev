@@ -1,6 +1,6 @@
 import { Menu, Tray } from "electron";
-import { VaultSourceStatus } from "buttercup";
-import { getSourceDescriptions, lockAllSources } from "../services/buttercup";
+import { VaultSourceStatus } from "Buttercup-Rev";
+import { getSourceDescriptions, lockAllSources } from "../services/Buttercup-Rev";
 import { openAndRepositionMainWindow, openMainWindow } from "../services/windows";
 import { getIconPath } from "../library/tray";
 import { logInfo } from "../library/log";

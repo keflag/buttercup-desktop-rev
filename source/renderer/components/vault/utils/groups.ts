@@ -1,4 +1,4 @@
-import { EntryFacade, GroupFacade, GroupID, VaultFacade } from "buttercup";
+import { EntryFacade, GroupFacade, GroupID, VaultFacade } from "Buttercup-Rev";
 import { sortBy, prop, compose, toLower, reverse } from "ramda";
 import { GroupTreeNodeInfo } from "../types";
 

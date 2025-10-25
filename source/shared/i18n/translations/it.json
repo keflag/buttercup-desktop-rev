@@ -6,7 +6,7 @@
             "close-button": "Chiudi",
             "close-button-title": "Chiudi finestra informazioni"
         },
-        "title": "Informazioni su Buttercup",
+        "title": "Informazioni su Buttercup-Rev",
         "version": {
             "core": "Core",
             "desktop": "Desktop"
@@ -32,9 +32,9 @@
             "dropbox-auth": "Si aprirà una nuova finestra per l'autenticazione",
             "file-prompt": "Si aprirà una finestra per scegliere il file archivio",
             "google-auth": {
-                "instr-1": "Puoi scegliere il livello di autorizzazione che Buttercup userà durante l'accesso all'account <strong>Google Drive</strong>.",
-                "instr-2": "Seleziona un livello di autorizzazione <strong>aperto</strong> garantirà a Buttercup l'accesso a tutti i file e le cartelle nell'account e alle condivisioni.",
-                "instr-3": "Seleziona un livello di autorizzazione <i>non-</i>aperto garantirà a Buttercup l'accesso ai file che sono stati creati o a cui ha avuto accesso precedentemente."
+                "instr-1": "Puoi scegliere il livello di autorizzazione che Buttercup-Rev userà durante l'accesso all'account <strong>Google Drive</strong>.",
+                "instr-2": "Seleziona un livello di autorizzazione <strong>aperto</strong> garantirà a Buttercup-Rev l'accesso a tutti i file e le cartelle nell'account e alle condivisioni.",
+                "instr-3": "Seleziona un livello di autorizzazione <i>non-</i>aperto garantirà a Buttercup-Rev l'accesso ai file che sono stati creati o a cui ha avuto accesso precedentemente."
             },
             "webdav-auth": {
                 "password-label": "Password",
@@ -60,7 +60,7 @@
         "title": "Un nuovo inizio"
     },
     "app-menu": {
-        "about": "Info su Buttercup",
+        "about": "Info su Buttercup-Rev",
         "add-new-vault": "Nuovo archivio",
         "biometrics": "Usa sblocco biometrico",
         "close-window": "Chiudi finestra",
@@ -144,12 +144,12 @@
         },
         "file-vault": {
             "add-existing": {
-                "bcup-filter": "Archivi Buttercup",
+                "bcup-filter": "Archivi Buttercup-Rev",
                 "confirm-button": "Aggiungi",
                 "title": "Aggiungi archivio esistente"
             },
             "add-new": {
-                "bcup-filter": "Archivi Buttercup",
+                "bcup-filter": "Archivi Buttercup-Rev",
                 "confirm-button": "Crea",
                 "title": "Aggiungi nuovo archivio"
             }
@@ -167,7 +167,7 @@
             "success": "Google Drive ri-autenticato correttamente: sblocca nuovamente",
             "title": "Ri-autenticazione Google"
         },
-         "import-file-chooser": {
+        "import-file-chooser": {
             "submit-button": "Importa",
             "title": "Importa da {{importer}} archivio"
         },
@@ -188,7 +188,7 @@
             "title": "Aggiungi File archivio"
         },
         "password-prompt": {
-           "biometric-fallback": {
+            "biometric-fallback": {
                 "unlock-count-exceeded": "N. massimo sblocchi biometrici superato: richiesta password",
                 "unlock-period-exceeded": "Periodo sblocco biometrico scaduto: richiesta password"
             },
@@ -196,7 +196,7 @@
                 "description": "Usa l'autenticazione biometrica per sbloccare automaticamente o Annulla per accedere con una password.",
                 "title": "Autenticazione biometrica attiva"
             },
-             "button-cancel": "Annulla",
+            "button-cancel": "Annulla",
             "button-cancel-title": "Annulla sblocco",
             "button-unlock": "Sblocca",
             "button-unlock-title": "Conferma sblocco archivio",
@@ -267,13 +267,13 @@
             "lock-vaults-after-time-desc": "Blocca automaticamente gli archivi dopo un periodo di inattività.",
             "lock-vaults-window-closed": "Blocca gli archivi se la finestra viene chiusa",
             "lock-vaults-window-closed-label": "Blocco alla chiusura",
-             "pre-release": {
-                "description": "Consenti a Buttercup di aggiornarsi dal <strong>canale pre-release</strong> oltre al canale stabile. <strong>Usalo a tuo rischio</strong>. Le versioni pre-release sono raramente stabili e possono danneggiare i contenuti e le preferenze dell'archivio.",
+            "pre-release": {
+                "description": "Consenti a Buttercup-Rev di aggiornarsi dal <strong>canale pre-release</strong> oltre al canale stabile. <strong>Usalo a tuo rischio</strong>. Le versioni pre-release sono raramente stabili e possono danneggiare i contenuti e le preferenze dell'archivio.",
                 "label": "Abilita canale aggiornamento pre-release",
                 "title": "Aggiornamenti pre-release"
             },
-           "secure-file-host": {
-                "description": "Il file sicuro host consente all'<strong>Estensione browser Buttercup</strong> di connettersi agli archivi locali in questo computer tramite questa applicazione.",
+            "secure-file-host": {
+                "description": "Il file sicuro host consente all'<strong>Estensione browser Buttercup-Rev</strong> di connettersi agli archivi locali in questo computer tramite questa applicazione.",
                 "label": "Abilita file sicuro host",
                 "title": "Host file sicuro"
             },
@@ -371,8 +371,8 @@
             "title": "Dati biometrici"
         },
         "format": {
-            "a-description": "Il formato A è il formato originale dell'archivio Buttercup che usa i delta per archiviare la struttura dell'archivio.",
-            "b-description": "Il formato B è il nuovo formato dell'archivio Buttercup che usa una struttura JSON per gestire la struttura e la cronologia dell'archivio.",
+            "a-description": "Il formato A è il formato originale dell'archivio Buttercup-Rev che usa i delta per archiviare la struttura dell'archivio.",
+            "b-description": "Il formato B è il nuovo formato dell'archivio Buttercup-Rev che usa una struttura JSON per gestire la struttura e la cronologia dell'archivio.",
             "a-upgrade-b": "Dovresti eseguire l'aggiornamento al formato B, che attualmente è <strong>stabile</strong>. Ti consigliamo di eseguire il backup dell'archivio prima di eseguire questa operazione.",
             "description": "Gestisci formato e aggiornamenti dell'archivio attuale.",
             "format-type": "Formato {{format}}",

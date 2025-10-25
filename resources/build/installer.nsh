@@ -1,10 +1,10 @@
 !macro customInstall
-  DetailPrint "Register buttercup URI Handler"
-  DeleteRegKey HKCR "buttercup"
-  WriteRegStr HKCR "buttercup" "" "URL:buttercup"
-  WriteRegStr HKCR "buttercup" "URL Protocol" ""
-  WriteRegStr HKCR "buttercup\DefaultIcon" "" "$INSTDIR\${APP_EXECUTABLE_FILENAME}"
-  WriteRegStr HKCR "buttercup\shell" "" ""
-  WriteRegStr HKCR "buttercup\shell\Open" "" ""
-  WriteRegStr HKCR "buttercup\shell\Open\command" "" "$INSTDIR\${APP_EXECUTABLE_FILENAME} %1"
+  DetailPrint "Register Buttercup-Rev URI Handler"
+  DeleteRegKey HKCR "Buttercup-Rev"
+  WriteRegStr HKCR "Buttercup-Rev" "" "URL:Buttercup-Rev"
+  WriteRegStr HKCR "Buttercup-Rev" "URL Protocol" ""
+  WriteRegStr HKCR "Buttercup-Rev\DefaultIcon" "" "$INSTDIR\${APP_EXECUTABLE_FILENAME}"
+  WriteRegStr HKCR "Buttercup-Rev\shell" "" ""
+  WriteRegStr HKCR "Buttercup-Rev\shell\Open" "" ""
+  WriteRegStr HKCR "Buttercup-Rev\shell\Open\command" "" "$INSTDIR\${APP_EXECUTABLE_FILENAME} %1"
 !macroend

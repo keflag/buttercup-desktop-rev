@@ -1,6 +1,6 @@
-import { VaultFormatID, VaultSourceID } from "buttercup";
+import { VaultFormatID, VaultSourceID } from "Buttercup-Rev";
 import { logInfo } from "../library/log";
-import { convertVaultFormatAToB, getVaultFormat } from "./buttercup";
+import { convertVaultFormatAToB, getVaultFormat } from "./Buttercup-Rev";
 
 export async function convertVaultFormat(
     sourceID: VaultSourceID,

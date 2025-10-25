@@ -27,9 +27,9 @@
             "dropbox-auth": "Una ventana separada se abrirá para autentificar",
             "file-prompt": "Una ventana se abrirá para elegir un cofre",
             "google-auth": {
-                "instr-1": "Puede seleccionar el nivel de permisos que utilizará Buttercup al acceder a tu cuenta de <strong>Google Drive</strong>.",
-                "instr-2": "Seleccionar una configuración de permiso <strong>abierta</strong> otorgará a Buttercup acceso a todos los archivos y carpetas de su cuenta y los recursos compartidos conectados.",
-                "instr-3": "Seleccionar una configuración <i>no</i> abierta otorgará a Buttercup acceso a los archivos que ha creado / accedido previamente."
+                "instr-1": "Puede seleccionar el nivel de permisos que utilizará Buttercup-Rev al acceder a tu cuenta de <strong>Google Drive</strong>.",
+                "instr-2": "Seleccionar una configuración de permiso <strong>abierta</strong> otorgará a Buttercup-Rev acceso a todos los archivos y carpetas de su cuenta y los recursos compartidos conectados.",
+                "instr-3": "Seleccionar una configuración <i>no</i> abierta otorgará a Buttercup-Rev acceso a los archivos que ha creado / accedido previamente."
             },
             "webdav-auth": {
                 "password-label": "Contraseña",
@@ -123,12 +123,12 @@
         },
         "file-vault": {
             "add-existing": {
-                "bcup-filter": "Cofres Buttercup",
+                "bcup-filter": "Cofres Buttercup-Rev",
                 "confirm-button": "Añadir",
                 "title": "Añadir cofre existente"
             },
             "add-new": {
-                "bcup-filter": "Cofres Buttercup",
+                "bcup-filter": "Cofres Buttercup-Rev",
                 "confirm-button": "Crear",
                 "title": "Añadir cofre nuevo"
             }
@@ -215,7 +215,7 @@
             "lock-vaults-window-closed": "Bloquear cofres si la ventana está cerrada",
             "lock-vaults-window-closed-label": "Bloquear al cerrar",
             "secure-file-host": {
-                "description": "El servidor de archivos permite que la <strong>extensión del navegador Buttercup</strong> se conecte a los cofres locales del ordenador a través de esta aplicación.",
+                "description": "El servidor de archivos permite que la <strong>extensión del navegador Buttercup-Rev</strong> se conecte a los cofres locales del ordenador a través de esta aplicación.",
                 "label": "Activar el servidor de archivos seguro",
                 "title": "Servidor de archivos seguro"
             },

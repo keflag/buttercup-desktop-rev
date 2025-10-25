@@ -1,6 +1,6 @@
 import { Menu } from "electron";
-import { VaultSourceStatus } from "buttercup";
-import { getSourceDescriptions, lockAllSources, lockSource } from "../services/buttercup";
+import { VaultSourceStatus } from "Buttercup-Rev";
+import { getSourceDescriptions, lockAllSources, lockSource } from "../services/Buttercup-Rev";
 import { closeWindows, getMainWindow, openMainWindow } from "../services/windows";
 import { getConfigValue, setConfigValue } from "../services/config";
 import { getLastSourceID } from "../services/lastVault";
@@ -40,7 +40,7 @@ async function getContextMenu(): Promise<Menu> {
     }
     return Menu.buildFromTemplate([
         {
-            label: "Buttercup",
+            label: "Buttercup-Rev",
             submenu: [
                 {
                     label: t("app-menu.about"),

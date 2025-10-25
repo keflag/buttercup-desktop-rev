@@ -1,5 +1,5 @@
 import { IconName, MaybeElement, TreeNodeInfo } from "@blueprintjs/core";
-import { GroupFacade, GroupID } from "buttercup";
+import { GroupFacade, GroupID } from "Buttercup-Rev";
 
 export interface GroupTreeNodeInfo extends TreeNodeInfo<GroupFacade> {
     id: GroupID;

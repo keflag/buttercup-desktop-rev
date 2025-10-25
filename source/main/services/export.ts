@@ -1,8 +1,8 @@
 import fs from "fs";
 import { dialog } from "electron";
-import { VaultSourceID } from "buttercup";
+import { VaultSourceID } from "Buttercup-Rev";
 import pify from "pify";
-import { exportVault, getSourceDescription } from "./buttercup";
+import { exportVault, getSourceDescription } from "./Buttercup-Rev";
 import { getMainWindow } from "./windows";
 import { t } from "../../shared/i18n/trans";
 import { logInfo } from "../library/log";
@@ -17,7 +17,7 @@ export async function exportVaultSource(sourceID: VaultSourceID): Promise<void> 
         buttonLabel: t("dialog.export-file-chooser.submit-button"),
         filters: [
             {
-                name: "Buttercup CSV",
+                name: "Buttercup-Rev CSV",
                 extensions: ["csv"]
             }
         ],

@@ -1,4 +1,4 @@
-import { EntryID, VaultFacade, VaultFormatID, VaultSourceID, VaultSourceStatus } from "buttercup";
+import { EntryID, VaultFacade, VaultFormatID, VaultSourceID, VaultSourceStatus } from "Buttercup-Rev";
 import { BrowserWindow, clipboard, ipcMain, shell } from "electron";
 import { Layerr } from "layerr";
 import {
@@ -25,7 +25,7 @@ import {
     setSourceOrder,
     setSourcesOrder,
     toggleAutoUpdate
-} from "./services/buttercup";
+} from "./services/Buttercup-Rev";
 import { getVaultFacade } from "./services/facades";
 import {
     getConfigValue,

@@ -1,11 +1,11 @@
 import path from "path";
 import { BrowserWindow, BrowserWindowConstructorOptions, shell } from "electron";
 import { enable as enableWebContents } from "@electron/remote/main";
-import { VaultSourceID } from "buttercup";
+import { VaultSourceID } from "Buttercup-Rev";
 import debounce from "debounce";
 import { getConfigValue, setConfigValue } from "./config";
 import { getIconPath } from "../library/tray";
-import { lockAllSources } from "./buttercup";
+import { lockAllSources } from "./Buttercup-Rev";
 import { setLastSourceID } from "./lastVault";
 import { logErr, logInfo } from "../library/log";
 import { Preferences } from "../types";

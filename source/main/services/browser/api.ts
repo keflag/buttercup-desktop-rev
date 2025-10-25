@@ -17,7 +17,7 @@ export function buildApplication(): express.Application {
     app.use(express.json());
     app.use(cors());
     app.use((req: Request, res: Response, next: NextFunction) => {
-        res.set("Server", `ButtercupDesktop/${VERSION}`);
+        res.set("Server", `Buttercup-RevDesktop/${VERSION}`);
         next();
     });
     createRoutes(app);

@@ -1,5 +1,5 @@
 import { useCallback, useContext, useMemo } from "react";
-import { EntryFacade, EntryID, GroupFacade, GroupID } from "buttercup";
+import { EntryFacade, EntryID, GroupFacade, GroupID } from "Buttercup-Rev";
 import { VaultContext, VaultContextState } from "../VaultContext";
 import {
     countChildGroups,

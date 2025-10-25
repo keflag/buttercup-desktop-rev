@@ -1,4 +1,4 @@
-import { Entry, EntryPropertyValueType, EntryURLType, getEntryURLs, VaultSource } from "buttercup";
+import { Entry, EntryPropertyValueType, EntryURLType, getEntryURLs, VaultSource } from "Buttercup-Rev";
 import { OTP } from "../types";
 
 export function extractVaultOTPItems(source: VaultSource): Array<OTP> {

@@ -7,7 +7,7 @@ import { handleProtocolCall } from "./services/protocol";
 import { getConfigValue } from "./services/config";
 import { shouldShowMainWindow, wasAutostarted } from "./services/arguments";
 import { logErr, logInfo } from "./library/log";
-import { BUTTERCUP_PROTOCOL } from "./symbols";
+import { Buttercup-Rev_PROTOCOL } from "./symbols";
 import { AppStartMode } from "./types";
 
 logInfo("Application starting");
@@ -38,14 +38,14 @@ app.on("activate", () => {
 app.on("second-instance", async (event, args) => {
     await openMainWindow();
     // Protocol URL for Linux/Windows
-    const protocolURL = args.find((arg) => arg.startsWith(BUTTERCUP_PROTOCOL));
+    const protocolURL = args.find((arg) => arg.startsWith(Buttercup-Rev_PROTOCOL));
     if (protocolURL) {
         handleProtocolCall(protocolURL);
     }
 });
 app.on("open-url", (e, url) => {
     // Protocol URL for MacOS
-    if (url.startsWith(BUTTERCUP_PROTOCOL)) {
+    if (url.startsWith(Buttercup-Rev_PROTOCOL)) {
         handleProtocolCall(url);
     }
 });
@@ -61,7 +61,7 @@ app.whenReady()
     })
     .then(() => initialise())
     .then(() => {
-        const protocol = BUTTERCUP_PROTOCOL.replace("://", "");
+        const protocol = Buttercup-Rev_PROTOCOL.replace("://", "");
         if (!app.isDefaultProtocolClient(protocol)) {
             logInfo(`Registering protocol: ${protocol}`);
             const protoReg = app.setAsDefaultProtocolClient(protocol);

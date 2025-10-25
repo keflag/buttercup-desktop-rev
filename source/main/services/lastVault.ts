@@ -1,4 +1,4 @@
-import { VaultSourceID } from "buttercup";
+import { VaultSourceID } from "Buttercup-Rev";
 import { updateAppMenu } from "../actions/appMenu";
 import { logErr } from "../library/log";
 

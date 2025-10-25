@@ -1,6 +1,6 @@
 import React, { useEffect, useMemo, useRef, useState } from "react";
 import styled from "styled-components";
-import { DEFAULT_ENTRY_TYPE, EntryType } from "buttercup";
+import { DEFAULT_ENTRY_TYPE, EntryType } from "Buttercup-Rev";
 import ICON_LOGIN from "../../../../resources/images/login.png";
 import ICON_WEBSITE from "../../../../resources/images/website.png";
 import ICON_NOTE from "../../../../resources/images/note.png";
@@ -10,7 +10,7 @@ import ICON_CREDITCARD from "../../../../resources/images/credit-card.png";
 const DYNAMIC_STATE_FAILED = 2;
 const DYNAMIC_STATE_LOADED = 1;
 const DYNAMIC_STATE_LOADING = 0;
-const ICON_LOOKUP = "https://icon.buttercup.pw/icon/";
+const ICON_LOOKUP = "https://icon.Buttercup-Rev.pw/icon/";
 const ICON_TYPES = {
     [EntryType.Login]: ICON_LOGIN,
     [EntryType.Website]: ICON_WEBSITE,

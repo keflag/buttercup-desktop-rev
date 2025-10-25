@@ -1,6 +1,6 @@
 import React, { HTMLAttributes, useCallback, useEffect, useMemo, useState } from "react";
 import styled, { createGlobalStyle } from "styled-components";
-import { generatePassword, getConfig } from "@buttercup/generator";
+import { generatePassword, getConfig } from "@Buttercup-Rev/generator";
 import Popover from "react-popover";
 import { Button, Intent } from "@blueprintjs/core";
 import { COLOURS } from "../../../shared/symbols";

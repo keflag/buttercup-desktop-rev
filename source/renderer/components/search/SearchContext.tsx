@@ -1,4 +1,4 @@
-import { EntryID, GroupID } from "buttercup";
+import { EntryID, GroupID } from "Buttercup-Rev";
 import React, { createContext, useCallback, useState } from "react";
 
 interface SearchContextState {

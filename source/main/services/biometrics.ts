@@ -1,8 +1,8 @@
 import { systemPreferences } from "electron";
-import { VaultSourceID } from "buttercup";
+import { VaultSourceID } from "Buttercup-Rev";
 import { Layerr } from "layerr";
 import keytar from "keytar";
-import { getSourceDescription, testSourceMasterPassword } from "./buttercup";
+import { getSourceDescription, testSourceMasterPassword } from "./Buttercup-Rev";
 import { APP_ID } from "../../shared/symbols";
 import { updateAppMenu } from "../actions/appMenu";
 import { logInfo, logWarn } from "../library/log";

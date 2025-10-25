@@ -1,16 +1,16 @@
 import path from "path";
 import { dialog } from "electron";
-import { Vault, VaultSourceID } from "buttercup";
+import { Vault, VaultSourceID } from "Buttercup-Rev";
 import {
     BitwardenImporter,
-    ButtercupCSVImporter,
-    ButtercupImporter,
+    Buttercup-RevCSVImporter,
+    Buttercup-RevImporter,
     CSVImporter,
     KeePass2XMLImporter,
     LastPassImporter,
     OnePasswordImporter
-} from "@buttercup/importer";
-import { mergeVaults } from "./buttercup";
+} from "@Buttercup-Rev/importer";
+import { mergeVaults } from "./Buttercup-Rev";
 import { getMainWindow } from "./windows";
 import { t } from "../../shared/i18n/trans";
 import { logErr } from "../library/log";
@@ -25,14 +25,14 @@ export interface ImporterConstructor {
 
 export const IMPORTERS = [
     ["Bitwarden", "json", BitwardenImporter],
-    // ["Buttercup", "bcup", ButtercupImporter], // @todo
-    ["Buttercup", "csv", ButtercupCSVImporter],
+    // ["Buttercup-Rev", "bcup", Buttercup-RevImporter], // @todo
+    ["Buttercup-Rev", "csv", Buttercup-RevCSVImporter],
     ["CSV", "csv", CSVImporter],
     ["KeePass", "xml", KeePass2XMLImporter],
     ["Lastpass", "csv", LastPassImporter],
     ["1Password", "1pif", OnePasswordImporter]
 ];
-const IMPORTERS_WITH_PASSWORDS = [ButtercupImporter];
+const IMPORTERS_WITH_PASSWORDS = [Buttercup-RevImporter];
 
 export async function startImport(
     sourceID: VaultSourceID,

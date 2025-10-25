@@ -26,13 +26,13 @@ export async function setStartWithSession(enable: boolean): Promise<void> {
 }
 
 async function setStartWithSessionLinux(enable: boolean): Promise<void> {
-    const autostartPath = path.join(untildify(LINUX_AUTOSTART_DIR), "buttercup.desktop");
+    const autostartPath = path.join(untildify(LINUX_AUTOSTART_DIR), "Buttercup-Rev.desktop");
     const isEnabled = await pathExists(autostartPath);
     let execPath = process.env?.APPIMAGE ? process.env.APPIMAGE : process.execPath;
     execPath = execPath.replace(/(\s+)/g, "\\$1");
     if (enable && !isEnabled) {
         const desktop = LINUX_DESKTOP.trim()
-            .replace(/{{APP_NAME}}/g, "Buttercup")
+            .replace(/{{APP_NAME}}/g, "Buttercup-Rev")
             .replace(/{{APP_PATH}}/g, execPath);
         await fs.writeFile(autostartPath, desktop);
     } else if (!enable && isEnabled) {

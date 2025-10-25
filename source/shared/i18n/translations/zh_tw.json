@@ -32,9 +32,9 @@
             "dropbox-auth": "將開啟一個獨立的視窗進行驗證",
             "file-prompt": "將開啟一個對話框以選擇保險箱檔案",
             "google-auth": {
-                "instr-1": "您可以選擇 Buttercup 在存取您的 <strong>Google Drive</strong> 帳戶時使用的權限等級。",
-                "instr-2": "選擇 <strong>開放</strong> 權限設定將授予 Buttercup 存取您帳戶中所有檔案和資料夾以及連線共享的權限。",
-                "instr-3": "選擇 <i>非</i>開放設定將授予 Buttercup 存取其先前建立/存取檔案的權限。"
+                "instr-1": "您可以選擇 Buttercup-Rev 在存取您的 <strong>Google Drive</strong> 帳戶時使用的權限等級。",
+                "instr-2": "選擇 <strong>開放</strong> 權限設定將授予 Buttercup-Rev 存取您帳戶中所有檔案和資料夾以及連線共享的權限。",
+                "instr-3": "選擇 <i>非</i>開放設定將授予 Buttercup-Rev 存取其先前建立/存取檔案的權限。"
             },
             "webdav-auth": {
                 "password-label": "密碼",
@@ -144,12 +144,12 @@
         },
         "file-vault": {
             "add-existing": {
-                "bcup-filter": "Buttercup 保險箱",
+                "bcup-filter": "Buttercup-Rev 保險箱",
                 "confirm-button": "新增",
                 "title": "新增現有保險箱"
             },
             "add-new": {
-                "bcup-filter": "Buttercup 保險箱",
+                "bcup-filter": "Buttercup-Rev 保險箱",
                 "confirm-button": "建立",
                 "title": "新增新的保險箱"
             }
@@ -268,12 +268,12 @@
             "lock-vaults-window-closed": "保險箱視窗關閉時鎖定保險箱",
             "lock-vaults-window-closed-label": "關閉時鎖定",
             "pre-release": {
-                "description": "允許 Buttercup 除了從穩定版頻道更新，也允許從 <strong>預覽版發布頻道</strong> 更新。<strong>風險自負</strong>。預覽版發布版本相對不穩定，可能會損壞保險箱內容和偏好設定。",
+                "description": "允許 Buttercup-Rev 除了從穩定版頻道更新，也允許從 <strong>預覽版發布頻道</strong> 更新。<strong>風險自負</strong>。預覽版發布版本相對不穩定，可能會損壞保險箱內容和偏好設定。",
                 "label": "啟用預覽版發布更新頻道",
                 "title": "預覽版發布更新"
             },
             "secure-file-host": {
-                "description": "安全檔案主機允許 <strong>Buttercup 瀏覽器擴充套件</strong> 透過此應用程式連線到本機保險箱。",
+                "description": "安全檔案主機允許 <strong>Buttercup-Rev 瀏覽器擴充套件</strong> 透過此應用程式連線到本機保險箱。",
                 "label": "啟用安全檔案主機",
                 "title": "安全檔案主機"
             },
@@ -371,8 +371,8 @@
             "title": "生物識別驗證"
         },
         "format": {
-            "a-description": "格式 A 是原始的 Buttercup 保險箱格式，使用增量儲存保險箱結構。",
-            "b-description": "格式 B 是新的 Buttercup 保險箱格式，使用 JSON 結構管理保險箱結構和歷史。",
+            "a-description": "格式 A 是原始的 Buttercup-Rev 保險箱格式，使用增量儲存保險箱結構。",
+            "b-description": "格式 B 是新的 Buttercup-Rev 保險箱格式，使用 JSON 結構管理保險箱結構和歷史。",
             "a-upgrade-b": "您應該升級到格式 B，這是目前 <strong>穩定</strong> 的版本。建議您在進行此操作之前備份您的保險箱。",
             "description": "管理目前保險箱格式和更新。",
             "format-type": "格式 {{format}}",

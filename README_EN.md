@@ -1,11 +1,9 @@
-# Buttercup-Rev 桌面端
-**简体中文** | **[English](README-EN.md)**
-
-> Buttercup-Rev 桌面端 - Mac, Linux and Windows系统
+# Buttercup-Rev Desktop
+> Buttercup-Rev for Desktop - Mac, Linux and Windows
 
 [![Buttercup-Rev](https://cdn.rawgit.com/Buttercup-Rev-pw/Buttercup-Rev-assets/6582a033/badge/Buttercup-Rev-slim.svg)](https://Buttercup-Rev.pw) ![Latest version](https://img.shields.io/github/tag/Buttercup-Rev/Buttercup-Rev-desktop.svg?label=latest) [![Chat securely on Keybase](https://img.shields.io/badge/keybase-bcup-blueviolet)](https://keybase.io/team/bcup)
 
-<img width="1406" alt="Buttercup-Rev 桌面端截图" src="https://github.com/Buttercup-Rev/Buttercup-Rev-desktop/assets/3869469/1320b163-3e5c-4423-a4fd-8de7ffad2a0e">
+<img width="1406" alt="Buttercup-Rev Desktop screenshot" src="https://github.com/Buttercup-Rev/Buttercup-Rev-desktop/assets/3869469/1320b163-3e5c-4423-a4fd-8de7ffad2a0e">
 ²
 
 ---
@@ -16,27 +14,27 @@ The Buttercup-Rev project has come to an end, and these repositories are in tran
 
 ---
 
-## 关于
+## About
 
-Buttercup-Rev 是一款免费、开源的跨平台**密码管理器**，基于 NodeJS 并使用 Typescript 开发。它采用行业标准的强加密技术，在静态状态下保护你的密码与凭证（以及你存储在 Buttercup-Rev 保险箱中的其他数据），所有数据均存储在 `.bcup` 格式的保险箱文件内。保险箱可从多种来源加载，也可保存至这些来源，例如**本地文件系统**、**Dropbox**、**Google Drive**，或任何支持 **WebDAV** 协议的服务（如 _ownCloud_ 或 _Nextcloud_ ¹）。
+Buttercup-Rev is a free, open-source and cross-platform **password manager**, built on NodeJS with Typescript. It uses strong industry-standard encryption to protect your passwords and credentials (among other data you store in Buttercup-Rev vaults) at rest, within vault files (`.bcup`). Vaults can be loaded from and saved to a number of sources, such as the **local filesystem**, **Dropbox**, **Google Drive** or any **WebDAV**-enabled service (like _ownCloud_ or _Nextcloud_ ¹).
 
-### 为何你需要一个密码管理器
+### Why you need a password manager
 
-当你在网络上拥有任何账户时，密码管理都是一项关键工具。非常重要的是，你所有的在线账户都应使用高强度且唯一的密码，这样它们才更难被破解。即便其中一个账户遭遇安全漏洞，使用唯一密码也能大幅降低攻击者进一步获取你其他账户访问权限的可能性。
+Password management is a crucial tool when you have _any_ online presence. It's vital that all of your accounts online use strong and unique passwords so that they're much more difficult to break in to. Even if one of your accounts are breached, having unique passwords means that the likelihood of the attacker gaining further access to your accounts portfolio is greatly reduced.
 
-若没有像 Buttercup-Rev 这样的密码管理器，为每个服务管理不同密码会变得十分繁琐。如果你能记住所有密码，这往往意味着这些密码的强度不足。理想情况下，你只需记住保险箱的主密码，而无需凭记忆记住任何单个账户的专属密码。
+Without a password manager, such as Buttercup-Rev, it would be very tedious to manage different passwords for each service. If you remember your passwords it's a good sign that they're not strong enough. Ideally you should memorise a primary password for your vault, and not know any of the account-specific passwords off the top of your head.
 
-### 注意事项
+### Precautions
 
-Buttercup-Rev 会在受保护文件中对数据进行安全加密，但整体安全性取决于最薄弱的环节——这通常就是用于锁定和解锁保险箱的主密码。请遵循以下基本准则，确保你的保险箱即使面临暴露风险也能保持安全：
+Buttercup-Rev securely encrypts your data in protected files, but this security is only as strong as the weakest component - and this is very often the primary password used to lock and unlock your vault. Follow these basic guidelines to ensure that your vault is safe even if exposed:
 
-* 选择一个**唯一**的密码，且该密码未在其他任何地方使用过
-* 使用高度多样化的字符组合，例如字母、数字、符号及空格
-* 使用长密码，密码长度越长越好
-* 不要在密码中包含常见单词或人名
-* 切勿与任何人分享你的密码
+ * Choose a **unique** password that is not used elsewhere
+ * Use a highly-varied set of different characters - such as alpha-numeric, symbols and spaces
+ * Use a long password - the longer the better
+ * Don't include words or names in the password
+ * Never share your password with anyone
 
-需要特别注意的是，**与 Buttercup-Rev 相关的任何人都绝不会要求你提供个人保险箱或其主密码**。请勿将主密码或任何相关信息分享给他人。Buttercup-Rev 的开发人员或贡献者可能会要求你提供通过自身系统创建的**示例保险箱**，以尝试复现问题，但请务必确保此类示例保险箱中不使用你的真实密码，也不存储任何实际凭证。
+_It is very important to note that no one associated with Buttercup-Rev will ever request your personal vault or its primary password. Do not share it or any of its related details with anyone. Developers or contributors working with Buttercup-Rev may request **example** vaults created via your system to try and reproduce issues, but please ensure to never use your real password or store actual credentails within such vaults._
 
 ### Versions
 

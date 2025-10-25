@@ -1,6 +1,6 @@
 import { Preferences } from "../../shared/types";
 import { logInfo } from "../library/log";
-import { getUnlockedSourcesCount, lockAllSources } from "./buttercup";
+import { getUnlockedSourcesCount, lockAllSources } from "./Buttercup-Rev";
 import { getConfigValue } from "./config";
 
 let __autoVaultLockTimeout: NodeJS.Timeout | null = null,

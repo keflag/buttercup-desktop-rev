@@ -1,4 +1,4 @@
-import { EntryFacade, EntryPropertyType, VaultFacade, VaultFacadeEntrySearch } from "buttercup";
+import { EntryFacade, EntryPropertyType, VaultFacade, VaultFacadeEntrySearch } from "Buttercup-Rev";
 
 export const filterEntries = (entries: Array<EntryFacade> = [], term = ""): Array<EntryFacade> => {
     if (term === "") {

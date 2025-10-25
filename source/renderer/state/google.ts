@@ -1,5 +1,5 @@
 import { State, createState } from "@hookstate/core";
-import { VaultSourceID } from "buttercup";
+import { VaultSourceID } from "Buttercup-Rev";
 
 export const GOOGLE_REAUTH_SOURCE: State<VaultSourceID> = createState(null as VaultSourceID);
 

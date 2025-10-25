@@ -1,5 +1,5 @@
-import { VaultSourceID } from "buttercup";
-import { lockSource } from "../services/buttercup";
+import { VaultSourceID } from "Buttercup-Rev";
+import { lockSource } from "../services/Buttercup-Rev";
 import { logInfo } from "../library/log";
 
 export async function lockSourceWithID(sourceID: VaultSourceID) {

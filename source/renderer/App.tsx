@@ -1,7 +1,7 @@
 import * as React from "react";
 import { HashRouter as Router, Switch, Route } from "react-router-dom";
 import styled, { ThemeProvider } from "styled-components";
-import { DndProvider, HTML5Backend, themes } from "@buttercup/ui";
+import { DndProvider, HTML5Backend, themes } from "@Buttercup-Rev/ui";
 import { THEME_DARK, THEME_LIGHT } from "./styles/themes";
 import { getThemeProp } from "./styles/theme";
 import { VaultManagement } from "./components/VaultManagement";

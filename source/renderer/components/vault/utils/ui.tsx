@@ -1,5 +1,5 @@
 import React from "react";
-import { EntryFacade, EntryPropertyType } from "buttercup";
+import { EntryFacade, EntryPropertyType } from "Buttercup-Rev";
 
 const generateHighlightedText = (text, regions) => {
     if (!regions) return text;

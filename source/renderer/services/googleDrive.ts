@@ -1,5 +1,5 @@
 import { ipcRenderer } from "electron";
-import { GoogleDriveClient } from "@buttercup/googledrive-client";
+import { GoogleDriveClient } from "@Buttercup-Rev/googledrive-client";
 
 export async function createEmptyVault(
     accessToken: string,

@@ -18,8 +18,8 @@ import {
     VaultSourceID,
     VaultSourceStatus,
     init
-} from "buttercup";
-import { exportVaultToCSV } from "@buttercup/exporter";
+} from "Buttercup-Rev";
+import { exportVaultToCSV } from "@Buttercup-Rev/exporter";
 import { describeSource } from "../library/sources";
 import { clearFacadeCache } from "./facades";
 import { notifyWindowsOfSourceUpdate } from "./windows";

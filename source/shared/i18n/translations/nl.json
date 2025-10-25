@@ -32,9 +32,9 @@
             "dropbox-auth": "Een los venster opent voor authenticatie",
             "file-prompt": "Een venster opent om een kluisbestand te kiezen",
             "google-auth": {
-                "instr-1": "Je kunt het toestemmingsniveau selecteren dat Buttercup zal gebruiken bij het openen van jouw <strong>Google Drive</strong>-account.",
-                "instr-2": "Het selecteren van een <strong>open</strong> toestemmingsinstelling geeft Buttercup toegang tot alle bestanden en mappen in jouw account en gedeelde items.",
-                "instr-3": "Het selecteren van een <i>niet-</i>open instelling geeft Buttercup toegang tot bestanden die het eerder heeft aangemaakt/toegang toe heeft gehad."
+                "instr-1": "Je kunt het toestemmingsniveau selecteren dat Buttercup-Rev zal gebruiken bij het openen van jouw <strong>Google Drive</strong>-account.",
+                "instr-2": "Het selecteren van een <strong>open</strong> toestemmingsinstelling geeft Buttercup-Rev toegang tot alle bestanden en mappen in jouw account en gedeelde items.",
+                "instr-3": "Het selecteren van een <i>niet-</i>open instelling geeft Buttercup-Rev toegang tot bestanden die het eerder heeft aangemaakt/toegang toe heeft gehad."
             },
             "webdav-auth": {
                 "password-label": "Wachtwoord",
@@ -144,12 +144,12 @@
         },
         "file-vault": {
             "add-existing": {
-                "bcup-filter": "Buttercup kluizen",
+                "bcup-filter": "Buttercup-Rev kluizen",
                 "confirm-button": "Toevoegen",
                 "title": "Voeg bestaande kluis toe"
             },
             "add-new": {
-                "bcup-filter": "Buttercup kluizen",
+                "bcup-filter": "Buttercup-Rev kluizen",
                 "confirm-button": "Aanmaken",
                 "title": "Maak nieuwe kluis"
             }
@@ -268,7 +268,7 @@
             "lock-vaults-window-closed": "Kluizen vergrendelen bij het sluiten van kluisvenster",
             "lock-vaults-window-closed-label": "Vergrendel bij sluiten",
             "secure-file-host": {
-                "description": "De beveiligde bestandshost maakt verbinding met lokale kluizen op deze pc via de <strong>Buttercup Browser-extensie</strong>.",
+                "description": "De beveiligde bestandshost maakt verbinding met lokale kluizen op deze pc via de <strong>Buttercup-Rev Browser-extensie</strong>.",
                 "label": "Activeer beveiligde bestandshost",
                 "title": "Beveiligde bestandshost"
             },
@@ -366,8 +366,8 @@
             "title": "Biometrie"
         },
         "format": {
-            "a-description": "Formaat A is het oorspronkelijke Buttercup-kluisformaat dat delta's gebruikt om de kluisstructuur op te slaan.",
-            "b-description": "Formaat B is het nieuwe Buttercup-kluisformaat dat een JSON-structuur gebruikt om de kluisstructuur en -geschiedenis te beheren.",
+            "a-description": "Formaat A is het oorspronkelijke Buttercup-Rev-kluisformaat dat delta's gebruikt om de kluisstructuur op te slaan.",
+            "b-description": "Formaat B is het nieuwe Buttercup-Rev-kluisformaat dat een JSON-structuur gebruikt om de kluisstructuur en -geschiedenis te beheren.",
             "a-upgrade-b": "Je moet upgraden naar Formaat B, dat momenteel <strong>stabiel</strong> is. Het wordt aanbevolen om een back-up van jouw kluis te maken voordat je dit doet.",
             "description": "Beheer huidig kluisformaat en updates.",
             "format-type": "Formaat {{format}}",

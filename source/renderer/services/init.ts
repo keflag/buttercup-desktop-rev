@@ -1,5 +1,5 @@
 import { ipcRenderer } from "electron";
-import { init } from "buttercup";
+import { init } from "Buttercup-Rev";
 import { logInfo } from "../library/log";
 import { attachUpdatedListener, getThemeType, updateBodyTheme } from "../library/theme";
 import {
@@ -12,7 +12,7 @@ import { getOSLocale } from "./i18n";
 import { getPreferences } from "./preferences";
 import { applyCurrentUpdateState, applyReadyUpdateState } from "./update";
 import { initialisePresence } from "./presence";
-// import { changeLanguage as changeUiLangage } from "@buttercup/ui";
+// import { changeLanguage as changeUiLangage } from "@Buttercup-Rev/ui";
 
 let __lastInit: Promise<void> | null = null;
 
@@ -23,7 +23,7 @@ export async function initialise(rootElement: HTMLElement) {
 }
 
 async function initialiseInternal(rootElement: HTMLElement) {
-    logInfo("Initialising Buttercup core");
+    logInfo("Initialising Buttercup-Rev core");
     init();
     const preferences = await getPreferences();
     const locale = await getOSLocale();

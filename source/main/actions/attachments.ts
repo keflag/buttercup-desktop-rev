@@ -1,8 +1,8 @@
 import fs from "fs";
-import { EntryID, VaultSourceID } from "buttercup";
+import { EntryID, VaultSourceID } from "Buttercup-Rev";
 import { dialog } from "electron";
 import pify from "pify";
-import { getAttachmentData, getAttachmentDetails } from "../services/buttercup";
+import { getAttachmentData, getAttachmentDetails } from "../services/Buttercup-Rev";
 import { getMainWindow } from "../services/windows";
 import { t } from "../../shared/i18n/trans";
 

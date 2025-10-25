@@ -27,9 +27,9 @@
             "dropbox-auth": "認証用の別ウィンドウが開きます",
             "file-prompt": "保管庫ファイルを選択するダイアログが開きます",
             "google-auth": {
-                "instr-1": "あなたの <strong>Google Drive</strong> アカウントにアクセスする際に、Buttercupが使用する許可レベルを選択することができます。",
+                "instr-1": "あなたの <strong>Google Drive</strong> アカウントにアクセスする際に、Buttercup-Revが使用する許可レベルを選択することができます。",
                 "instr-2": "<strong>open</strong> 設定を選択すると、アカウント内のすべてのファイルとフォルダ、および接続された共有へのアクセスが許可されます。",
-                "instr-3": "open<i>以外の</i> 設定を選択すると、Buttercupが以前に作成/アクセスしたファイルにアクセスできるようになります。"
+                "instr-3": "open<i>以外の</i> 設定を選択すると、Buttercup-Revが以前に作成/アクセスしたファイルにアクセスできるようになります。"
             },
             "webdav-auth": {
                 "password-label": "パスワード",
@@ -127,12 +127,12 @@
         },
         "file-vault": {
             "add-existing": {
-                "bcup-filter": "Buttercupの保管庫",
+                "bcup-filter": "Buttercup-Revの保管庫",
                 "confirm-button": "追加",
                 "title": "既存の保管庫を追加"
             },
             "add-new": {
-                "bcup-filter": "Buttercupの保管庫",
+                "bcup-filter": "Buttercup-Revの保管庫",
                 "confirm-button": "作成",
                 "title": "新しい保管庫を追加"
             }
@@ -242,7 +242,7 @@
             "lock-vaults-window-closed": "保管庫のウィンドウが閉じられた場合にロック",
             "lock-vaults-window-closed-label": "閉じた際ににロック",
             "secure-file-host": {
-                "description": "セキュアファイルホストは、<strong>Buttercup Browser Extension</strong>がこのアプリケーションを介してこのPC上のローカル保管庫に接続することを可能にします。",
+                "description": "セキュアファイルホストは、<strong>Buttercup-Rev Browser Extension</strong>がこのアプリケーションを介してこのPC上のローカル保管庫に接続することを可能にします。",
                 "label": "安全なファイルホストを有効化",
                 "title": "安全なファイルホスト"
             },
@@ -316,8 +316,8 @@
             "title": "バックアップ"
         },
         "format": {
-            "a-description": "フォーマット A はButtercupオリジナルの保管庫フォーマットで、保管庫の構造を保存するためにデルタを使用します。",
-            "b-description": "フォーマット B は、保管庫の構造と履歴を管理するためにJSONを使用する新しいButtercup保管庫フォーマットです。",
+            "a-description": "フォーマット A はButtercup-Revオリジナルの保管庫フォーマットで、保管庫の構造を保存するためにデルタを使用します。",
+            "b-description": "フォーマット B は、保管庫の構造と履歴を管理するためにJSONを使用する新しいButtercup-Rev保管庫フォーマットです。",
             "a-upgrade-b": "現在 <strong>推奨されている</strong>フォーマット B にアップグレードしてください。これを行う前に、保管庫をバックアップすることを推奨します。",
             "description": "現在の保管庫のフォーマットとアップデートを管理",
             "format-type": "フォーマット {{format}}",

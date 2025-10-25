@@ -4,9 +4,9 @@
         "description": "Darmowy, otwartoźródłowy i wieloplatformowy menedżer haseł.",
         "dialog": {
             "close-button": "Zamknij",
-            "close-button-title": "Zamknij O Buttercup"
+            "close-button-title": "Zamknij O Buttercup-Rev"
         },
-        "title": "O Buttercup",
+        "title": "O Buttercup-Rev",
         "version": {
             "core": "Źródło",
             "desktop": "Desktop"
@@ -27,9 +27,9 @@
             "dropbox-auth": "W celu uwierzytelnienia otworzy się osobne okno",
             "file-prompt": "Otworzy się okno dialogowe umożliwiające wybór pliku archiwum",
             "google-auth": {
-                "instr-1": "Możesz wybrać poziom uprawnień, których będzie używać Buttercup podczas uzyskiwania dostępu do twojego konta <strong>Google Drive</strong>.",
-                "instr-2": "Wybranie <strong>pełnych</strong> uprawnień zapewni Buttercup dostęp do wszystkich plików i folderów na twoim koncie oraz podłączonych udostępnień.",
-                "instr-3": "Wybranie <i>nie-</i>pełnych uprawnień zapewni Buttercup dostęp do plików, które menedżer haseł wcześniej utworzył lub do których uzyskał dostęp."
+                "instr-1": "Możesz wybrać poziom uprawnień, których będzie używać Buttercup-Rev podczas uzyskiwania dostępu do twojego konta <strong>Google Drive</strong>.",
+                "instr-2": "Wybranie <strong>pełnych</strong> uprawnień zapewni Buttercup-Rev dostęp do wszystkich plików i folderów na twoim koncie oraz podłączonych udostępnień.",
+                "instr-3": "Wybranie <i>nie-</i>pełnych uprawnień zapewni Buttercup-Rev dostęp do plików, które menedżer haseł wcześniej utworzył lub do których uzyskał dostęp."
             },
             "webdav-auth": {
                 "password-label": "Hasło",
@@ -55,7 +55,7 @@
         "title": "Zacznij od początku"
     },
     "app-menu": {
-        "about": "O Buttercup",
+        "about": "O Buttercup-Rev",
         "add-new-vault": "Dodaj nowe",
         "close-window": "Zamknij okno",
         "connection": "Połączenie",
@@ -96,12 +96,12 @@
         },
         "file-vault": {
             "add-existing": {
-                "bcup-filter": "Archiwa Buttercup",
+                "bcup-filter": "Archiwa Buttercup-Rev",
                 "confirm-button": "Dodaj",
                 "title": "Dodaj istniejące archiwum"
             },
             "add-new": {
-                "bcup-filter": "Archiwa Buttercup",
+                "bcup-filter": "Archiwa Buttercup-Rev",
                 "confirm-button": "Utwórz",
                 "title": "Dodaj nowe archiwum"
             }
@@ -175,7 +175,7 @@
             "lock-vaults-window-closed": "Zablokuj archiwa po zamknięciu okna archiwum",
             "lock-vaults-window-closed-label": "Zablokuj podczas zamknięcia",
             "secure-file-host": {
-                "description": "Bezpieczny host plików umożliwia <strong>rozszerzeniu przeglądarki Buttercup</strong> łączenie się z lokalnymi archiwami na tym komputerze za pośrednictwem tej aplikacji.",
+                "description": "Bezpieczny host plików umożliwia <strong>rozszerzeniu przeglądarki Buttercup-Rev</strong> łączenie się z lokalnymi archiwami na tym komputerze za pośrednictwem tej aplikacji.",
                 "label": "Włącz bezpieczny host plików",
                 "title": "Bezpieczny host plików"
             },

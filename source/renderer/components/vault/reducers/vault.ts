@@ -1,4 +1,4 @@
-import { EntryFacadeField, EntryID, GroupFacade, GroupID, VaultFacade } from "buttercup";
+import { EntryFacadeField, EntryID, GroupFacade, GroupID, VaultFacade } from "Buttercup-Rev";
 import { EntriesSortMode, UpdatedEntryFacade } from "../../../types";
 
 export interface FilterState {

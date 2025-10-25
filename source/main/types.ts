@@ -1,4 +1,4 @@
-import { EntryID, VaultSourceID } from "buttercup";
+import { EntryID, VaultSourceID } from "Buttercup-Rev";
 
 export * from "../shared/types";
 

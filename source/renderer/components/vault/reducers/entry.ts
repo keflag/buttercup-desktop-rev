@@ -4,7 +4,7 @@ import {
     EntryPropertyType,
     EntryPropertyValueType,
     createFieldDescriptor
-} from "buttercup";
+} from "Buttercup-Rev";
 import { UpdatedEntryFacade } from "../../../types";
 
 export enum EntryActionType {

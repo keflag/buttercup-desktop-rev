@@ -3,7 +3,7 @@ import {
     VaultSourceEntrySearch,
     VaultSource,
     VaultSourceID
-} from "buttercup";
+} from "Buttercup-Rev";
 import { logInfo } from "../library/log";
 
 interface SearchCache {

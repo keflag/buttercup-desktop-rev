@@ -1,6 +1,6 @@
 import { shell } from "electron";
-import { DatasourceAuthManager, GoogleDriveDatasource, VaultSourceID } from "buttercup";
-import { ERR_REFRESH_FAILED, GoogleToken, OAuth2Client } from "@buttercup/google-oauth2-client";
+import { DatasourceAuthManager, GoogleDriveDatasource, VaultSourceID } from "Buttercup-Rev";
+import { ERR_REFRESH_FAILED, GoogleToken, OAuth2Client } from "@Buttercup-Rev/google-oauth2-client";
 import { Layerr } from "layerr";
 import { getProtocolEmitter } from "./protocol";
 import { getMainWindow } from "./windows";

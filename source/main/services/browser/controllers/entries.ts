@@ -1,9 +1,9 @@
 import { Request, Response } from "express";
-import { PropertyKeyValueObject, SearchResult, getEntryURLs } from "buttercup";
+import { PropertyKeyValueObject, SearchResult, getEntryURLs } from "Buttercup-Rev";
 import { EntriesSearchBodySchema, EntriesSearchQuerySchema, EntriesSearchType } from "../models";
 import { searchAllVaultsByTerm, searchAllVaultsByURL } from "../../search";
 import { respondJSON } from "../response";
-import { getEntries } from "../../buttercup";
+import { getEntries } from "../../Buttercup-Rev";
 
 export async function searchEntries(req: Request, res: Response) {
     const config = EntriesSearchQuerySchema.parse(req.query);

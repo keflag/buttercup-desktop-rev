@@ -1,5 +1,5 @@
 import { ipcRenderer } from "electron";
-import { VaultSourceID } from "buttercup";
+import { VaultSourceID } from "Buttercup-Rev";
 import { setBusy } from "../state/app";
 import { showError } from "../services/notifications";
 import { logInfo } from "../library/log";

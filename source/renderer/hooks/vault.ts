@@ -1,4 +1,4 @@
-import { VaultSourceID } from "buttercup";
+import { VaultSourceID } from "Buttercup-Rev";
 import { useCallback, useEffect, useState } from "react";
 import { ipcRenderer } from "electron";
 import { logErr } from "../library/log";

@@ -32,9 +32,9 @@
             "dropbox-auth": "A separate window will open for authentication",
             "file-prompt": "A dialog will open for choosing a vault file",
             "google-auth": {
-                "instr-1": "You may select the level of permission that Buttercup will use while accessing your <strong>Google Drive</strong> account.",
-                "instr-2": "Selecting an <strong>open</strong> permission setting will grant Buttercup access to all files and folders in your account and connected shares.",
-                "instr-3": "Selecting a <i>non-</i>open setting will grant Buttercup access to files that it has created/accessed previously."
+                "instr-1": "You may select the level of permission that Buttercup-Rev will use while accessing your <strong>Google Drive</strong> account.",
+                "instr-2": "Selecting an <strong>open</strong> permission setting will grant Buttercup-Rev access to all files and folders in your account and connected shares.",
+                "instr-3": "Selecting a <i>non-</i>open setting will grant Buttercup-Rev access to files that it has created/accessed previously."
             },
             "webdav-auth": {
                 "password-label": "Password",
@@ -144,12 +144,12 @@
         },
         "file-vault": {
             "add-existing": {
-                "bcup-filter": "Buttercup Vaults",
+                "bcup-filter": "Buttercup-Rev Vaults",
                 "confirm-button": "Add",
                 "title": "Add Existing Vault"
             },
             "add-new": {
-                "bcup-filter": "Buttercup Vaults",
+                "bcup-filter": "Buttercup-Rev Vaults",
                 "confirm-button": "Create",
                 "title": "Add New Vault"
             }
@@ -268,12 +268,12 @@
             "lock-vaults-window-closed": "Lock vaults if vault window closed",
             "lock-vaults-window-closed-label": "Lock on close",
             "pre-release": {
-                "description": "Allow Buttercup to update from the <strong>pre-release channel</strong> in addition to the stable channel. <strong>Use at your own risk</strong>. Pre-release versions are rarely stable and can corrupt vault contents and preferences.",
+                "description": "Allow Buttercup-Rev to update from the <strong>pre-release channel</strong> in addition to the stable channel. <strong>Use at your own risk</strong>. Pre-release versions are rarely stable and can corrupt vault contents and preferences.",
                 "label": "Enable the pre-release update channel",
                 "title": "Pre-release updates"
             },
             "secure-file-host": {
-                "description": "The secure file host allows the <strong>Buttercup Browser Extension</strong> to connect to local vaults on this PC via this application.",
+                "description": "The secure file host allows the <strong>Buttercup-Rev Browser Extension</strong> to connect to local vaults on this PC via this application.",
                 "label": "Enable secure file host",
                 "title": "Secure file host"
             },
@@ -371,8 +371,8 @@
             "title": "Biometrics"
         },
         "format": {
-            "a-description": "Format A is the original Buttercup vault format that uses deltas to store vault structure.",
-            "b-description": "Format B is the new Buttercup vault format that uses a JSON structure to manage vault structure and history.",
+            "a-description": "Format A is the original Buttercup-Rev vault format that uses deltas to store vault structure.",
+            "b-description": "Format B is the new Buttercup-Rev vault format that uses a JSON structure to manage vault structure and history.",
             "a-upgrade-b": "You should upgrade to Format B, which is currently <strong>stable</strong>. It is recommended that you backup your vault before doing this.",
             "description": "Manage current vault format and updates.",
             "format-type": "Format {{format}}",

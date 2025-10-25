@@ -6,7 +6,7 @@ import {
     SaveNewEntryPayloadSchema
 } from "../models";
 import { logInfo } from "../../../library/log";
-import { createNewEntry, updateExistingEntry } from "../../buttercup";
+import { createNewEntry, updateExistingEntry } from "../../Buttercup-Rev";
 
 export async function saveExistingEntry(req: Request, res: Response) {
     const { eid: entryID, id: sourceID } = SaveExistingEntryParamSchema.parse(req.params);

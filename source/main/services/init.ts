@@ -1,5 +1,5 @@
 import { session } from "electron";
-import { attachVaultManagerWatchers, loadVaultsFromDisk, onSourcesUpdated } from "./buttercup";
+import { attachVaultManagerWatchers, loadVaultsFromDisk, onSourcesUpdated } from "./Buttercup-Rev";
 import { initialise as initialiseLogging } from "./log";
 import { logInfo } from "../library/log";
 import { applyCurrentTheme } from "./theme";
@@ -41,7 +41,7 @@ export async function initialise() {
     attachVaultManagerWatchers();
     await loadVaultsFromDisk();
     session.defaultSession.webRequest.onBeforeSendHeaders((details, callback) => {
-        details.requestHeaders["Origin"] = "https://desktop.buttercup.pw/v2";
+        details.requestHeaders["Origin"] = "https://desktop.Buttercup-Rev.pw/v2";
         callback({ cancel: false, requestHeaders: details.requestHeaders });
     });
     await updateTrayIcon();

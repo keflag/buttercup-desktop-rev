@@ -1,7 +1,7 @@
 import path from "path";
 import { BrowserWindow, dialog } from "electron";
-import { Credentials, VaultSourceID } from "buttercup";
-import { addVault } from "../services/buttercup";
+import { Credentials, VaultSourceID } from "Buttercup-Rev";
+import { addVault } from "../services/Buttercup-Rev";
 import { logInfo } from "../library/log";
 import { t } from "../../shared/i18n/trans";
 import { AddVaultPayload, SourceType } from "../types";

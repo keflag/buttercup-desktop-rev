@@ -1,8 +1,8 @@
 
 import React, { useMemo } from "react";
-import { VaultSourceID, VaultSourceStatus } from "buttercup";
+import { VaultSourceID, VaultSourceStatus } from "Buttercup-Rev";
 import { useSingleState } from "react-obstate";
-import { Tabs } from "@buttercup/ui";
+import { Tabs } from "@Buttercup-Rev/ui";
 import { Intent, Menu, MenuDivider, MenuItem } from "@blueprintjs/core";
 import { sortVaults } from "../../library/vault";
 import { getIconForProvider } from "../../library/icons";

@@ -26,8 +26,8 @@ import {
     Position,
     Text
 } from "@blueprintjs/core";
-import { AttachmentDetails, Entry, EntryChangeType, EntryFacade, EntryPropertyValueType, EntryType } from "buttercup";
-import { FormattedInput, FormattedText } from "@buttercup/react-formatted-input";
+import { AttachmentDetails, Entry, EntryChangeType, EntryFacade, EntryPropertyValueType, EntryType } from "Buttercup-Rev";
+import { FormattedInput, FormattedText } from "@Buttercup-Rev/react-formatted-input";
 import formatBytes from "xbytes";
 import { useCurrentEntry, useGroups } from "./hooks/vault";
 import { PaneContainer, PaneContent, PaneHeader, PaneFooter } from "./Pane";

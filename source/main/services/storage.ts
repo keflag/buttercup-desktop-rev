@@ -1,7 +1,7 @@
 import path from "path";
 import envPaths from "env-paths";
 import { FileStorage } from "../library/FileStorage";
-import { VaultSourceID } from "buttercup";
+import { VaultSourceID } from "Buttercup-Rev";
 
 interface EnvPaths {
     data: string;
@@ -12,19 +12,19 @@ interface EnvPaths {
 }
 
 let __envPaths: EnvPaths;
-if ("BUTTERCUP_HOME_DIR" in process.env) {
+if ("Buttercup-Rev_HOME_DIR" in process.env) {
     __envPaths = {
-        data: path.join(process.env.BUTTERCUP_HOME_DIR, "data"),
+        data: path.join(process.env.Buttercup-Rev_HOME_DIR, "data"),
         config: path.join(
-            process.env.BUTTERCUP_CONFIG_DIR || process.env.BUTTERCUP_HOME_DIR,
+            process.env.Buttercup-Rev_CONFIG_DIR || process.env.Buttercup-Rev_HOME_DIR,
             "config"
         ),
-        cache: path.join(process.env.BUTTERCUP_HOME_DIR, "cache"),
-        log: path.join(process.env.BUTTERCUP_HOME_DIR, "log"),
-        temp: path.join(process.env.BUTTERCUP_TEMP_DIR || process.env.BUTTERCUP_HOME_DIR, "temp")
+        cache: path.join(process.env.Buttercup-Rev_HOME_DIR, "cache"),
+        log: path.join(process.env.Buttercup-Rev_HOME_DIR, "log"),
+        temp: path.join(process.env.Buttercup-Rev_TEMP_DIR || process.env.Buttercup-Rev_HOME_DIR, "temp")
     };
 } else {
-    const TEMP_ENV_PATHS = envPaths("Buttercup");
+    const TEMP_ENV_PATHS = envPaths("Buttercup-Rev");
     __envPaths = {
         data: TEMP_ENV_PATHS.data,
         config: TEMP_ENV_PATHS.config,
@@ -35,7 +35,7 @@ if ("BUTTERCUP_HOME_DIR" in process.env) {
 }
 
 const CONFIG_PATH = path.join(__envPaths.config, "desktop.config.json");
-export const LOG_FILENAME = "buttercup-desktop.log";
+export const LOG_FILENAME = "Buttercup-Rev-desktop.log";
 export const LOG_PATH = path.join(__envPaths.log, LOG_FILENAME);
 export const VAULTS_BACKUP_PATH = path.join(__envPaths.data, "backup");
 const VAULTS_CACHE_PATH = path.join(__envPaths.temp, "vaults-offline.cache.json");

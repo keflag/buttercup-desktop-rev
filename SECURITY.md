@@ -1,3 +1,3 @@
-# Buttercup Desktop Security Policy
+# Buttercup-Rev Desktop Security Policy
 
-_Please refer to [Buttercup's main security policy](https://github.com/buttercup/dossier/blob/master/SECURITY.md)._
+_Please refer to [Buttercup-Rev's main security policy](https://github.com/Buttercup-Rev/dossier/blob/master/SECURITY.md)._

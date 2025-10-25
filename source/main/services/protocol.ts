@@ -1,7 +1,7 @@
 import { BrowserWindow } from "electron";
 import EventEmitter from "eventemitter3";
 import { logErr, logInfo, logWarn } from "../library/log";
-import { BUTTERCUP_PROTOCOL } from "../symbols";
+import { Buttercup-Rev_PROTOCOL } from "../symbols";
 
 let __protocolEmitter: EventEmitter = null;
 
@@ -32,7 +32,7 @@ function handleAuthCall(args) {
 }
 
 export function handleProtocolCall(protocolURL: string) {
-    const path = protocolURL.replace(BUTTERCUP_PROTOCOL, "");
+    const path = protocolURL.replace(Buttercup-Rev_PROTOCOL, "");
     logInfo(`Protocol URL call: ${path}`);
     const [action, ...args] = path.split("/");
     switch (action) {

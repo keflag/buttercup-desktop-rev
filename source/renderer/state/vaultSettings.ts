@@ -1,5 +1,5 @@
 import { State, createState } from "@hookstate/core";
-import { VaultSourceID } from "buttercup";
+import { VaultSourceID } from "Buttercup-Rev";
 
 export const SHOW_VAULT_SETTINGS: State<VaultSourceID> = createState("");
 

@@ -27,9 +27,9 @@
             "dropbox-auth": "O fereastră separată se va deschide pentru autentificare",
             "file-prompt": "O fereastră de dialog se va deschide pentru alegerea fișierului seif",
             "google-auth": {
-                "instr-1": "Poți selecta nivelul permisiunilor pe care Buttercup le va folosi în timp ce-ți accesează contul <strong>Google Drive</strong>.",
-                "instr-2": "Selectând permisiunea <strong>deschisă</strong>, vei permite aplicației Buttercup să acceseze toate fișierele și dosarele contului tău și totodată toate conexiunile împărtășite.",
-                "instr-3": "Selectând permisiunea <i>non-</i>deschisă, vei permite aplicației Buttercup să acceseze doar fișierele pe care le-a creat/accesat anterior."
+                "instr-1": "Poți selecta nivelul permisiunilor pe care Buttercup-Rev le va folosi în timp ce-ți accesează contul <strong>Google Drive</strong>.",
+                "instr-2": "Selectând permisiunea <strong>deschisă</strong>, vei permite aplicației Buttercup-Rev să acceseze toate fișierele și dosarele contului tău și totodată toate conexiunile împărtășite.",
+                "instr-3": "Selectând permisiunea <i>non-</i>deschisă, vei permite aplicației Buttercup-Rev să acceseze doar fișierele pe care le-a creat/accesat anterior."
             },
             "webdav-auth": {
                 "password-label": "Parolă",
@@ -127,12 +127,12 @@
         },
         "file-vault": {
             "add-existing": {
-                "bcup-filter": "Seifuri Buttercup",
+                "bcup-filter": "Seifuri Buttercup-Rev",
                 "confirm-button": "Adaugă",
                 "title": "Adaugă Seif Existent"
             },
             "add-new": {
-                "bcup-filter": "Seifuri Buttercup",
+                "bcup-filter": "Seifuri Buttercup-Rev",
                 "confirm-button": "Creează",
                 "title": "Adaugă Seif Nou"
             }
@@ -220,7 +220,7 @@
             "lock-vaults-window-closed": "Blochează seifurile dacă fereastra se închide",
             "lock-vaults-window-closed-label": "Blochează la închidere",
             "secure-file-host": {
-                "description": "<strong>Extensia Browser Buttercup</strong> pentru a te conecta la seifurile locale prin această aplicație.",
+                "description": "<strong>Extensia Browser Buttercup-Rev</strong> pentru a te conecta la seifurile locale prin această aplicație.",
                 "label": "Activează găzduirea securizată fișierelor",
                 "title": "Găzduirea Securizată a Fișierelor"
             },

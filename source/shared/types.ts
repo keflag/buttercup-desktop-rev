@@ -4,7 +4,7 @@ import {
     VaultFormatID,
     VaultSourceID,
     VaultSourceStatus
-} from "buttercup";
+} from "Buttercup-Rev";
 
 export interface AddVaultPayload {
     createNew: boolean;

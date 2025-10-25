@@ -1,6 +1,6 @@
-import { VaultSourceID } from "buttercup";
+import { VaultSourceID } from "Buttercup-Rev";
 import createPerfTimer from "execution-time";
-import { unlockSource } from "../services/buttercup";
+import { unlockSource } from "../services/Buttercup-Rev";
 import { logInfo } from "../library/log";
 
 export async function unlockSourceWithID(sourceID: VaultSourceID, password: string) {

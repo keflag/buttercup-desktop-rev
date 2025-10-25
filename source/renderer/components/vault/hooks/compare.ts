@@ -1,5 +1,5 @@
 import { DependencyList, EffectCallback, useEffect } from "react";
-import { isVaultFacade } from "buttercup";
+import { isVaultFacade } from "Buttercup-Rev";
 
 export function useDeepEffect(callback: EffectCallback, dependencies: DependencyList = []) {
     useEffect(

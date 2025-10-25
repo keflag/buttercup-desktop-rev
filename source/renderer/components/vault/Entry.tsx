@@ -7,8 +7,8 @@ import {
     EntryURLType,
     fieldsToProperties,
     getEntryURLs
-} from "buttercup";
-import { EntryFacade } from "buttercup";
+} from "Buttercup-Rev";
+import { EntryFacade } from "Buttercup-Rev";
 import { SiteIcon } from "./SiteIcon";
 import { useGroups } from "./hooks/vault";
 import { VaultContext } from "./VaultContext";

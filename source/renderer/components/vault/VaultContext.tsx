@@ -1,6 +1,6 @@
 import React, { createContext, useMemo, useState } from "react";
 import { useReducer } from "use-reducer-state";
-import { EntryFacade, EntryFacadeField, EntryID, EntryPropertyValueType, EntryType, GroupFacade, GroupID, VaultFacade, createEntryFacade, createGroupFacade } from "buttercup";
+import { EntryFacade, EntryFacadeField, EntryID, EntryPropertyValueType, EntryType, GroupFacade, GroupID, VaultFacade, createEntryFacade, createGroupFacade } from "Buttercup-Rev";
 import { EntryActionType, entryReducer, getInitialEntryState } from "./reducers/entry";
 import { FilterState, vaultReducer, filterReducer, getDefaultFilterState, VaultStateActionType, FilterActionType } from "./reducers/vault";
 import { useDeepEffect } from "./hooks/compare";

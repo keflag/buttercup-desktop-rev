@@ -1,5 +1,5 @@
 import * as React from "react";
-import { VaultFacade } from "buttercup";
+import { VaultFacade } from "Buttercup-Rev";
 import { getCurrentFacade, getFacadeEmitter } from "../services/facade";
 
 const { useEffect, useState } = React;

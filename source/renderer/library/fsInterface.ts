@@ -3,9 +3,9 @@ import {
     FileSystemInterface,
     GoogleDriveInterface,
     WebDAVInterface
-} from "@buttercup/file-interface";
-import { GoogleDriveClient } from "@buttercup/googledrive-client";
-import { DropboxClient } from "@buttercup/dropbox-client";
+} from "@Buttercup-Rev/file-interface";
+import { GoogleDriveClient } from "@Buttercup-Rev/googledrive-client";
+import { DropboxClient } from "@Buttercup-Rev/dropbox-client";
 import { AuthType, createClient as createWebdavClient } from "webdav";
 import { SourceType } from "../types";
 

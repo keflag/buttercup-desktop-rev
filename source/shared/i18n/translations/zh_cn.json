@@ -27,9 +27,9 @@
             "dropbox-auth": "将打开一个单独的窗口进行身份验证",
             "file-prompt": "将打开一个对话框以选择保险柜文件",
             "google-auth": {
-                "instr-1": "您可以选择 Buttercup 在访问您的 <strong>Google Drive</strong> 帐户时使用的权限级别。",
-                "instr-2": "选择<strong>打开</strong>权限设置将授予 Buttercup 访问您帐户和关联共享中的所有文件和文件夹的权限。",
-                "instr-3": "选择<i>非</i>打开设置将授予 Buttercup 访问它之前创建/访问的文件的权限。"
+                "instr-1": "您可以选择 Buttercup-Rev 在访问您的 <strong>Google Drive</strong> 帐户时使用的权限级别。",
+                "instr-2": "选择<strong>打开</strong>权限设置将授予 Buttercup-Rev 访问您帐户和关联共享中的所有文件和文件夹的权限。",
+                "instr-3": "选择<i>非</i>打开设置将授予 Buttercup-Rev 访问它之前创建/访问的文件的权限。"
             },
             "webdav-auth": {
                 "password-label": "密码",
@@ -127,12 +127,12 @@
         },
         "file-vault": {
             "add-existing": {
-                "bcup-filter": "Buttercup 保险柜",
+                "bcup-filter": "Buttercup-Rev 保险柜",
                 "confirm-button": "添加",
                 "title": "添加现有保险柜"
             },
             "add-new": {
-                "bcup-filter": "Buttercup 保险柜",
+                "bcup-filter": "Buttercup-Rev 保险柜",
                 "confirm-button": "创建",
                 "title": "添加新的保险柜"
             }
@@ -242,7 +242,7 @@
             "lock-vaults-window-closed": "如果保险柜窗口关闭，则锁定保险柜",
             "lock-vaults-window-closed-label": "锁定关闭",
             "secure-file-host": {
-                "description": "安全文件主机允许 <strong>Buttercup 浏览器扩展</strong> 通过此应用程序连接到此 PC 上的本地保险柜。",
+                "description": "安全文件主机允许 <strong>Buttercup-Rev 浏览器扩展</strong> 通过此应用程序连接到此 PC 上的本地保险柜。",
                 "label": "启用安全文件主机",
                 "title": "安全文件主机"
             },
@@ -316,8 +316,8 @@
             "title": "备份"
         },
         "format": {
-            "a-description": "格式 A 是原始的 Buttercup 保险柜格式，它使用增量来存储保险柜结构。",
-            "b-description": "格式 B 是新的 Buttercup 保险柜格式，它使用 JSON 结构来管理保险柜结构和历史记录。",
+            "a-description": "格式 A 是原始的 Buttercup-Rev 保险柜格式，它使用增量来存储保险柜结构。",
+            "b-description": "格式 B 是新的 Buttercup-Rev 保险柜格式，它使用 JSON 结构来管理保险柜结构和历史记录。",
             "description": "管理当前的保险柜格式和更新。",
             "format-type": "格式 {{format}}",
             "title": "格式",

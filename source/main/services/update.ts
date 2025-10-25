@@ -91,8 +91,8 @@ async function checkForUpdateInternal() {
     autoUpdater.autoDownload = false;
     autoUpdater.setFeedURL({
         provider: "github",
-        owner: "buttercup",
-        repo: "buttercup-desktop"
+        owner: "Buttercup-Rev",
+        repo: "Buttercup-Rev-desktop"
     });
     if (isDev) {
         const hasDevConfig = await hasDevUpdate();
